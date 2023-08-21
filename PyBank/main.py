@@ -58,8 +58,8 @@ report = f"""Financial Analysis
 Total Months: {total_months}
 Total: ${total_profitloss}
 Average Change: ${profit_loss_average:.2f}
-Greatest Increase in Profits: {greatest_increase["date"]} (${greatest_increase["amount"]})
-Greatest Decrease in Profits: {greatest_decrease["date"]} (${greatest_decrease["amount"]})
+Greatest Increase in Profits: {greatest_increase}
+Greatest Decrease in Profits: {greatest_decrease}
 """
 
 # Print to Terminal Box
